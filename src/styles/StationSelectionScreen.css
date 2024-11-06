@@ -1,0 +1,100 @@
+/* StationSelectionScreen.css */
+
+.station-selection-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    max-width:350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-label {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-box {
+    min-width:320px;
+    display:flex;
+    
+    gap: 20px;
+}
+
+.search-button,
+.timetable-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: solid 2px red;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+    max-width:160px;
+}
+
+.timetable-button {
+    margin-left: auto;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    gap: 20px;
+}
+
+.station-list,
+.direction-list {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.list-item {
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.gray-text {
+    color: gray;
+}
