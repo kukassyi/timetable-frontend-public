@@ -1,15 +1,27 @@
+# React Project
+
+Reactで作成されたプロジェクトです。  
+バックエンドプロジェクト(timetable-backend-public)が必要です。  
+以下のサイトで公開しています。  
+https://timetable-kashi.net/
 
 
- 時刻表を取得及び表示するフロントサイドアプリケーションです。 
- 
- Reactで作成されています。
+## Getting Started
 
- npmをインストールして起動してください
+１．本プロジェクトをダウンロード
 
- バックエンドは別プロジェクトにあります
+２．npmを実行
+&emsp;&emsp;npmのインストールなど、Reactを動作させる環境は整備済みとの前提です  
+&emsp;&emsp;``npm run build``
 
- timetable-backend-public です
+５．以下のURLにアクセス  
+&emsp;&emsp;http://localhost:3000 
 
 
- ライセンスはMITとします
+## Environment Variables
 
+Reactが動作できる環境を用意してください
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
