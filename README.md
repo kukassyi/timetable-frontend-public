@@ -14,7 +14,7 @@ https://timetable-kashi.net/
 &emsp;&emsp;npmのインストールなど、Reactを動作させる環境は整備済みとの前提です  
 &emsp;&emsp;``npm run build``
 
-５．以下のURLにアクセス  
+３．以下のURLにアクセス  
 &emsp;&emsp;http://localhost:3000 
 
 
